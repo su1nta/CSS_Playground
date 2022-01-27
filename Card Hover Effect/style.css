@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+section{
+    background:rgb(33,33,37);
+    min-height:100vh;
+    overflow:hidden;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+section .card{
+    position:relative;
+    min-height: 400px;
+    width:320px;
+    background: #000;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    transition:.4s;
+    margin:25px;
+    overflow: auto;
+}
+
+.image{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+
+.image img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    transition:.4s;
+}
+
+
+.box{
+    position: absolute;
+    bottom:10px;
+    height:80px;
+    width:85%;
+    background:white;
+    transition:.4s;
+    overflow: hidden;
+    display:flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.card:hover .box{
+    height:100%;
+    width:100%;
+    bottom:0;
+
+}
+
+.card:hover .image img{
+    opacity: 0;
+}
+
+.box h4{
+    margin:0;
+    padding:20px;
+    padding-bottom:25px;
+    color:black;
+    font-size: 25px;
+}
+.box p{
+    margin:20px;
+    transition:.4s;
+}
+
+.card:hover .box p{
+    margin:0px 20px;
+}
+
+.read{
+    padding:0px;
+    margin:0px auto;
+    position:sticky;
+    background:rgb(255, 196, 0);
+    cursor:pointer;
+}
+.read p{
+    padding:10px;
+    font-weight:600;
+}
