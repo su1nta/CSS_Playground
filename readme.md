@@ -3,4 +3,4 @@
 </h3>
 <br>
    <a href="Card Hover Effect/index.html">Card Hover Effect</a>
-   <a href="https://su1nta.github.io/CSS_Projects/Glassmorphism/">Glassmorphism</a>
+   <a href="https://su1nta.github.io/CSS_Playground/Glassmorphism/">Glassmorphism</a>
